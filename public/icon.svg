@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#medGrad)" />
+  
+  <!-- Outer glowing ring / badge -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8"/>
+  
+  <!-- Medical Cross Background -->
+  <path d="M 226 120 H 286 V 196 H 362 V 256 H 286 V 392 H 226 V 256 H 150 V 196 H 226 Z" fill="rgba(255,255,255,0.12)" />
+  
+  <!-- Medical Stethoscope / MCQ Clipboard shape -->
+  <rect x="146" y="140" width="220" height="260" rx="28" fill="#ffffff" filter="url(#shadow)" />
+  
+  <!-- Clipboard top clip -->
+  <rect x="206" y="122" width="100" height="34" rx="10" fill="#0f766e" />
+  <circle cx="256" cy="139" r="6" fill="#ffffff" />
+  
+  <!-- MCQ Checkbox lines -->
+  <!-- Checkbox 1 (Checked with green checkmark) -->
+  <rect x="180" y="190" width="26" height="26" rx="6" fill="#10b981" />
+  <path d="M 186 203 L 191 208 L 200 197" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="218" y="196" width="124" height="14" rx="5" fill="#334155" />
+
+  <!-- Checkbox 2 (ECG Pulse wave) -->
+  <rect x="180" y="240" width="26" height="26" rx="6" fill="#0ea5e9" />
+  <path d="M 186 253 L 191 258 L 200 247" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 218 253 H 240 L 246 238 L 254 266 L 262 244 L 268 257 L 274 253 H 342" fill="none" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Checkbox 3 -->
+  <rect x="180" y="290" width="26" height="26" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2.5" />
+  <rect x="218" y="296" width="100" height="14" rx="5" fill="#64748b" />
+
+  <!-- Checkbox 4 -->
+  <rect x="180" y="340" width="26" height="26" rx="6" fill="#10b981" />
+  <path d="M 186 353 L 191 358 L 200 347" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="218" y="346" width="116" height="14" rx="5" fill="#334155" />
+
+  <!-- Badge at bottom right: Medical Star / Cross -->
+  <circle cx="376" cy="390" r="38" fill="#059669" stroke="#ffffff" stroke-width="6" filter="url(#shadow)" />
+  <path d="M 376 368 V 412 M 354 390 H 398" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" />
+</svg>

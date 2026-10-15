@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="medGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <!-- Full bleed solid background for maskable -->
+  <rect width="512" height="512" fill="url(#medGradMask)" />
+  
+  <!-- Scaled content inside safe zone (central 80%) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <!-- Clipboard shape -->
+    <rect x="146" y="140" width="220" height="260" rx="28" fill="#ffffff" />
+    
+    <!-- Clipboard top clip -->
+    <rect x="206" y="122" width="100" height="34" rx="10" fill="#0f766e" />
+    <circle cx="256" cy="139" r="6" fill="#ffffff" />
+    
+    <!-- MCQ Checkbox lines -->
+    <rect x="180" y="190" width="26" height="26" rx="6" fill="#10b981" />
+    <path d="M 186 203 L 191 208 L 200 197" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="218" y="196" width="124" height="14" rx="5" fill="#334155" />
+
+    <rect x="180" y="240" width="26" height="26" rx="6" fill="#0ea5e9" />
+    <path d="M 186 253 L 191 258 L 200 247" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 218 253 H 240 L 246 238 L 254 266 L 262 244 L 268 257 L 274 253 H 342" fill="none" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <rect x="180" y="290" width="26" height="26" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2.5" />
+    <rect x="218" y="296" width="100" height="14" rx="5" fill="#64748b" />
+
+    <rect x="180" y="340" width="26" height="26" rx="6" fill="#10b981" />
+    <path d="M 186 353 L 191 358 L 200 347" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="218" y="346" width="116" height="14" rx="5" fill="#334155" />
+
+    <!-- Badge at bottom right: Medical Star / Cross -->
+    <circle cx="376" cy="390" r="38" fill="#059669" stroke="#ffffff" stroke-width="6" />
+    <path d="M 376 368 V 412 M 354 390 H 398" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" />
+  </g>
+</svg>

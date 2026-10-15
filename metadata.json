@@ -1,0 +1,6 @@
+{
+  "name": "MedMCQ Offline",
+  "description": "Offline-first medical MCQ study and testing companion for Android. Practice by single or mixed topics, track completed and missed questions, and import custom Markdown files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
